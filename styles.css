@@ -10,10 +10,8 @@ body {
 
 #calculator {
   font-family: Arial, sans-serif;
-  /* background-color: hsl(0, 0%, 15%) ; */
   background-color: black;
   max-width: 500px;
-  overflow: hidden;
   border-radius: 15px;
   border-top: 50%;
   outline: 25px solid hsl(0, 0%, 15%);
@@ -27,25 +25,23 @@ body {
 
 #text {
   font-size: 3em;
-  /* color: white; */
   padding-left: 10px;
   display: flex;
   align-items: center;
   -webkit-text-stroke: 2px blue;
-  /* -webkit-text-fill-color: white; */
-   padding-left: 30px;
+  padding-left: 30px;
 }
 
 img {
-    margin-top: 15px;
-    border-radius: 20px;
-    margin-left: 20px;
+  margin-top: 15px;
+  border-radius: 20px;
+  margin-left: 20px;
 }
 
 #display {
   width: 87%;
   padding: 20px;
-margin-left: 11px;
+  margin-left: 11px;
   margin-top: 10px;
   font-size: 5rem;
   text-align: left;
@@ -78,8 +74,6 @@ margin-left: 11px;
 
 .hero {
   display: flex;
-  /* background-color: rgba(255, 255, 255, 0.628); */
-  /* border: 6px solid white; */
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
 }
@@ -97,7 +91,6 @@ margin-left: 11px;
 }
 
 .btn {
-   /* width: 150px; */
   height: 100px;
   margin-left: 10%;
   margin-right: -120%;
@@ -121,7 +114,6 @@ button:active {
 }
 
 #result:active {
-    background-color: white;
-    color: black;
-  }
-
+  background-color: white;
+  color: black;
+}
